@@ -1,0 +1,22 @@
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+  
+  <label>Id:</label>
+  <input formControlName="id" />
+
+  <label>Name:</label>
+  <input formControlName="name" />
+
+  <label>Salary:</label>
+  <input formControlName="salary" />
+
+ 
+<label>Position:</label>
+  <input formControlName="position" />
+
+  <label>Department:</label>
+  <input formControlName="department" />
+
+ 
+
+  <button type="submit">Submit</button>
+</form>
